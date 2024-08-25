@@ -13,13 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: PHYS 709 Advanced Mechanics I, Fall 2024
+title: PHYS 709, Fall 2024
 tagline: Advanced Mechanics I
-description: A modern, highly customizable, responsive Jekyll template for course websites
+description: >-
+  PHYS 709 "Advanced Mechanics I" at the University of Mississippi, Fall 2024.
+  Instructor: Dr. Gavin S. Davies.
 author: Gavin S. Davies
 baseurl: '/PHYS709-Fall2024' # the subpath of your site, e.g. /blog
 url: 'https://olemiss-physics.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE","README.md"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.9.0
