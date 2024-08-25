@@ -13,26 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
+title: PHYS 709 Advanced Mechanics I, Fall 2024
+tagline: Advanced Mechanics I
 description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+author: Gavin S. Davies
+baseurl: '/PHYS709-Fall2024' # the subpath of your site, e.g. /blog
+url: 'https://olemiss-physics.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.9.0
-color_scheme: light
+color_scheme: dark
 search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  PHYS709 on GitHub:
+    - 'https://github.com/olemiss-physics/PHYS709-Fall2024'
+footer_content: "&copy; 2024 Gavin S. Davies. Released under the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA</a> license"
 
 # Collections for website data
 collections:
@@ -77,3 +75,6 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+last-modified-at:
+  date-format: '%b %d, %y %H:%M %Z'
