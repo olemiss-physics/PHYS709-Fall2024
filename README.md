@@ -37,7 +37,7 @@ Serve the project locally:
 ```
 bundle exec jekyll serve
 ```
-This will start the local Jekyll server at http://localhost:4000.
+This will start the local Jekyll server at http://localhost:4000/PHYS709-Fall2024.
 You can make local modifications and they should reflect on this open local webpage.
 
 ## Contributing
