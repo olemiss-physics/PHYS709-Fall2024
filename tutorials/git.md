@@ -21,4 +21,4 @@ Go ahead and create a new repo called `test-repo`; you can choose Public or Priv
 Click to add a README, then click "Create repository".
 
 You'll now be on the landing page for your newly created repository.
-
+By granting me access (settings/access and "Add people"-> "gavinsdavies") you will have completed this first basic tutorial. 
