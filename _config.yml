@@ -97,3 +97,10 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+callouts:
+  highlight:
+    color: dracula-purple
+
+enable_copy_code_button: true
+
