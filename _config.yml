@@ -13,26 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+title: PHYS 709, Fall 2024
+tagline: Advanced Mechanics I
+description: >-
+  PHYS 709 "Advanced Mechanics I" at the University of Mississippi, Fall 2024.
+  Instructor: Dr. Gavin S. Davies.
+author: Gavin S. Davies
+baseurl: '/PHYS709-Fall2024' # the subpath of your site, e.g. /blog
+url: 'https://olemiss-physics.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE","README.md"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.9.0
-color_scheme: light
+color_scheme: dark
 search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  PHYS709 on GitHub:
+    - 'https://github.com/olemiss-physics/PHYS709-Fall2024'
+footer_content: "&copy; 2024 Gavin S. Davies. Released under the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA</a> license."
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 # Collections for website data
 collections:
@@ -66,6 +68,24 @@ defaults:
     values:
       layout: announcement
 
+nav_external_links:
+  - title: 'PHYS709 on GitHub'
+    url: https://github.com/olemiss-physics/PHYS709-Fall2024
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: 'Slack'
+    url: https://umphysics.slack.com/archives/C07JEJZ8LTD
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: 'GitHub repository'
+    url: https://github.com/olemiss-physics/
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: 'Zoom'
+    url: #
+    hide_icon: false
+    opens_in_new_tab: true
+
 compress_html:
   clippings: all
   comments: all
@@ -77,3 +97,10 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+callouts:
+  highlight:
+    color: dracula-purple
+
+enable_copy_code_button: true
+
