@@ -9,9 +9,7 @@ Sep 16
 Sep 18
 : [Action-Angle Variables](#)
   : **G 10.6-10.7**
-  : [1.1](#)
 
 Sep 20
 : [Oscillations & Eigenvalue Equation](#)
   : **G 6.1**
-  : [1.1](#)

@@ -11,10 +11,8 @@ Aug 28
 : [Newtonian Mechanics & Constraints](#)
   : **G 1.3-1.4**
 : [](#)
-  : [1.1](#)
 
 Aug 30
 : [D'Alembert's Principle & Lagrange Equations](#)
   : **G 2.1-2.3**
 : [](#)
-  : [1.1](#)
