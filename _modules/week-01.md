@@ -1,23 +1,20 @@
 ---
-title: Introduction to Java
+title: Week 1
 ---
 
-Sep 28
-: [Java & Git](#)
+Aug 26
+: [Intro & Newtonian Mechanics](#)
+  : **G 1.1-1.2**
+: [**HW 1**](testing){: .label .label-red }[](#)
+
+Aug 28
+: [Newtonian Mechanics & Constraints](#)
+  : **G 1.3-1.4**
+: [](#)
   : [1.1](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
-
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Aug 30
+: [D'Alembert's Principle & Lagrange Equations](#)
+  : **G 2.1-2.3**
+: [](#)
+  : [1.1](#)

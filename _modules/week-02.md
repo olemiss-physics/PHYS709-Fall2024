@@ -1,23 +1,17 @@
 ---
-title: Basic Data Structures
+title: Week 2
 ---
 
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Sep 02
+: **Labor Day Holiday, No Class**{: .label .label-green }
 
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
 
-Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
+Sep 04
+: [Lagrange Equations, Principle of Least Action](#)
+  : **G 2.1-2.4**
+  : [1.1](#)
 
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
-
-Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }
+Sep 06
+: [Variational Calculus & Hamilton's principle](#)
+  : **G 2.4-2.6**
+  : [1.1](#)
