@@ -5,7 +5,7 @@ title: Week 1
 Aug 26
 : [Intro & Newtonian Mechanics](#)
   : **G 1.1-1.2**
-: [**CT 1**](){: .label .label-cyan}
+: [**CT 1**]({{ site.baseurl }}{% link tutorials/git.md %}){: .label .label-cyan}
 
 
 Aug 28
