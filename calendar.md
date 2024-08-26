@@ -9,6 +9,9 @@ permalink: /calendar
 
 # Calendar
 
+The following is a **tentative** schedule that will change as the semester proceeds.
+Make sure to keep an eye on the [Announcements]({{ site.baseurl }}{% link announcements.md %}) page.
+
 <div class="module">
     <dl class="grid">
         <dt>Week</dt>
