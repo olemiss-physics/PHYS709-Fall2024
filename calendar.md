@@ -12,6 +12,16 @@ permalink: /calendar
 The following is a **tentative** schedule that will change as the semester proceeds.
 Make sure to keep an eye on the [Announcements]({{ site.baseurl }}{% link announcements.md %}) page.
 
+#### Key
+- **HW X**{: .label .label-yellow } : day homework X is assigned
+- **HW Y**{: .label .label-red } : day homework Y is due
+- **CT Z**{: .label .label-cyan } : day computing task Z assigned
+- **CT Z**{: .label .label-red } : day computing task Z is due
+- **G 1.1** : assigned reading from Goldstein section 1.1
+
+
+
+
 <div class="module">
     <dl class="grid">
         <dt>Week</dt>
