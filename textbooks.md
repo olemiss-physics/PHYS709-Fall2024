@@ -13,7 +13,7 @@ The **Required** textbook covers the essential material, but I will not necessar
 
 **Classical Mechanics**, H. Goldstein, C. Poole & J. Safko (Third Edition, 2002)
 - Many consider the standard in advanced classical mechanics.
-- There is also an [Errate page](http://astro.physics.sc.edu/goldstein) that is worth consulting. I will try to identify any errors when selecting homework sets but take this into consideration.
+- There is also an [Errata page](http://astro.physics.sc.edu/goldstein) that is worth consulting. I will try to identify any errors when selecting homework sets but take this into consideration.
 
 ## Suggested
 
