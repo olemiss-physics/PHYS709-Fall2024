@@ -13,3 +13,4 @@ Sep 04
 Sep 06
 : [Variational Calculus & Hamilton's principle](#)
   : **G 2.4-2.6**
+: **HW 1 DUE**{: .label .label-red }[](#)
