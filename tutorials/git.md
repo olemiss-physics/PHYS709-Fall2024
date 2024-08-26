@@ -9,6 +9,7 @@ nav_order: 1
 
 This tutorial describes the basic usage of git, a version control system to track code changes among yourself and any collaborators.
 If you run into any difficulties following any of these steps, please post in our class channel (#phys709-fall2024) on Slack.
+Make sure to complete the GitHub sign up instructions detailed on the [Technology]({{ site.baseurl }}{% link technology.md %}#github) page.
 
 ## Create your own repository
 
