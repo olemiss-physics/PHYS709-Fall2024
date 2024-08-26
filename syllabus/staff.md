@@ -2,6 +2,8 @@
 layout: page
 title: Staff
 description: A listing of all of the course staff members.
+parent: Syllabus
+nav_order: 4
 ---
 
 # Staff

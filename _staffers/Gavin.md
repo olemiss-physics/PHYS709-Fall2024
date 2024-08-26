@@ -5,7 +5,8 @@ email: gsdavies@olemiss.edu
 website: https://gavinsdavies.com
 photo: Gavin.jpg
 meta:
-  Office Hours: Somewhere on the internet
+  Office Location: Lewis 222
+  Office Hours: By appointment
 ---
 
 [Schedule an appointment](#){: .btn .btn-outline }
