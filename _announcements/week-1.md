@@ -1,5 +1,5 @@
 ---
-title: Week 1 Announcement
+title: Week 1
 week: 1
 date: 2024-08-26
 ---
@@ -9,6 +9,8 @@ Welcome to PHYS 709! Familiarise yourself with this website and complete the fol
 - read the [Syllabus]({{ site.baseurl }}{% link syllabus/syllabus.md %}).
 - discover what [Textbooks]({{ site.baseurl }}{% link textbooks.md %}) this course favors.
 - understand what [Technology]({{ site.baseurl }}{% link technology.md %}) you're going to need for this course.
+
+Computing Task 1 is due on Friday, August 30th (at the start of class!). 
 
 <!--
 
