@@ -4,6 +4,7 @@ title: Technology
 description: Details about the technology used in this course.
 has_children: true
 permalink: /technology
+nav_order: 4
 ---
 
 # Technology
