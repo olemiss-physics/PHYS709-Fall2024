@@ -4,7 +4,7 @@ week: 1
 date: 2024-08-27
 ---
 
-I've posted [Homework #0]({{ site.baseurl }}{% link hw/phys709-hmwk-1.pdf}). It is due by Wednesday, September 4th, at the start of class. 
+I've posted [Homework #0]({{ site.baseurl }}{% link hw/phys709-hmwk-1.pdf %}). It is due by Wednesday, September 4th, at the start of class. 
 
 <!--
 
