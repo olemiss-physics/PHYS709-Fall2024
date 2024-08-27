@@ -9,6 +9,7 @@ Sep 02
 Sep 04
 : [Lagrange Equations, Principle of Least Action](#)
   : **G 2.1-2.4**
+: **HW 0 DUE**{: .label .label-red }[](#)
 
 Sep 06
 : [Variational Calculus & Hamilton's principle](#)

@@ -6,6 +6,7 @@ Aug 26
 : [Intro & Newtonian Mechanics](#)
   : **G 1.1-1.2**
 : [**CT 1**]({{ site.baseurl }}{% link tutorials/git.md %}){: .label .label-cyan}
+: [**HW 0**]({{ site.baseurl }}{% link hw/phys709-hmwk-0.pdf}){: .label .label-cyan}
 
 
 Aug 28
