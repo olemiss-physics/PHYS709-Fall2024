@@ -15,3 +15,4 @@ Sep 06
 : [E-L example, Calculus of Variations](#)
   : **G 2.4-2.6**
 : **HW 1 DUE**{: .label .label-red }[](#)
+: [**HW 2**]({{ site.baseurl }}{% link hw/phys709-hmwk-2.pdf %}){: .label .label-yellow }[](#)

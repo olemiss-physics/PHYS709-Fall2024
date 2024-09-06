@@ -5,6 +5,7 @@ title: Week 4
 Sep 16
 : [Poisson Brackets & Canonical Transformations](#)
   : **G 9.5-9.6, 9.9**
+: **HW 2 DUE**{: .label .label-red }[](#)
 
 Sep 18
 : [Hamilton-Jacobi Theory](#)
