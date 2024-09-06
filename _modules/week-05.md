@@ -3,7 +3,7 @@ title: Week 5
 ---
 
 Sep 23
-: [Oscillations](#)
+: [Oscillations & Eigenvalue Equation](#)
   : **G 6**
 
 Sep 25

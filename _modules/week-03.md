@@ -3,13 +3,15 @@ title: Week 3
 ---
 
 Sep 09
-: [Legendre Transformations and Hamilton's Equations of Motion](#)
-  : **G 8.1-8.6**
+: [Lagrange Multipliers, Noether's Theorem](#)
+  : **G 8.1-8.6, 13.7**
+: Guest Lecturer - Noah Knutson
 
 Sep 11
-: [Canonical Transformations & Generating Functions](#)
-  : **G 9.1-9.4**
+: [Legendre Transformations and Hamilton's Equations of Motion](#)
+  : **G 8.1-8.2, 8.4, 8.6**
+: Guest Lecturer - Noah Knutson
 
 Sep 13
-: [Poisson Brackets](#)
-  : **G 9.5-9.6, 9.9**
+: [Study Group](#)
+  : **Reading catch-up**
