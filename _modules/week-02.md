@@ -7,11 +7,11 @@ Sep 02
 
 
 Sep 04
-: [Lagrange Equations, Principle of Least Action](#)
+: [Euler-Lagrange Equations](#)
   : **G 2.1-2.4**
 : **HW 0 DUE**{: .label .label-red }[](#)
 
 Sep 06
-: [Variational Calculus & Hamilton's principle](#)
+: [E-L example, Calculus of Variations](#)
   : **G 2.4-2.6**
 : **HW 1 DUE**{: .label .label-red }[](#)
