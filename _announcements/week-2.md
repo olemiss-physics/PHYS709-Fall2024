@@ -8,6 +8,8 @@ By now you will have completed your HW1 and hopefully got into a routine of read
 
 I will away during Week 3 traveling for a week-long research meeting. Noah Knutson has agreed to work with you to cover some material and go over additional problems. 
 
+I've also posted [Homework #2]({{ site.baseurl }}{% link hw/phys709-hmwk-2.pdf %}). It is due upon my return by Monday, September 16th, at the start of class. 
+
 <!--
 
 1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
