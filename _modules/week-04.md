@@ -13,5 +13,5 @@ Sep 18
 : [**CT 2**]({{ site.baseurl }}{% link tutorials/git2.md %}){: .label .label-cyan }
 
 Sep 20
-: [Poisson Brackets & Canonical Transformations](#)
+: [Canonical Transformations](#)
   : **G 9.1-9.6**
