@@ -9,6 +9,7 @@ Sep 30
 Oct 02
 : [Oscillations, Eigenvalue Equation](#)
   : **G 6**
+: **HW 3 DUE**{: .label .label-red }[](#)
 
 Oct 04
 : [Forced and Damped Oscillations](#)
