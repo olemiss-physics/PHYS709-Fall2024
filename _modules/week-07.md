@@ -3,14 +3,16 @@ title: Week 7
 ---
 
 Oct 07
-: [Oscillations: Coupled Pendulum](#)
-  : **G 3**
+: [Oscillations: Double Pendulum](#)
+  : **G 6**
 : Guest Lecturer: Noah Knutson
 
 Oct 09
 : [Central Forces: One-body motion, Orbit Classification](#)
   : **G 3**
-: [**HW 3**]({{ site.baseurl }}{% link hw/phys709-hmwk-3.pdf %}){: .label .label-yellow }[](#)
+: [**HW 4**]({{ site.baseurl }}{% link hw/phys709-hmwk-4.pdf %}){: .label .label-yellow }[](#)
+: [**CT 3**]({{ site.baseurl }}{% link tutorials/python.md %}){: .label .label-yellow }[](#)
+
 : Guest Lecturer: Noah Knutson
 
 Oct 11
