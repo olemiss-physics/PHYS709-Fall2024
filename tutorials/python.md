@@ -11,9 +11,7 @@ We're now going to attempt to install Jupyter and additional Python libraries in
 If you don't know what Anaconda is you can look it up in your own time but for the purposes of this tutorial, I won't mention it again.
 
 {: .note }
-> Note
->
-> Don't forget: If you run into any difficulties during this install process, please post in our class channel (#phys709-fall2024) on Slack.
+> Don't forget: If you run into any difficulties during this install process, please post in our class channel (**#phys709-fall2024**) on Slack.
 
 There's a multitude of resources online for your specific system, but the installation instructions herein should suffice for the most generic install. For the record, they worked for me on an Ubuntu-based zsh-shell via [Windows Subsystem for Linux (WSL)](https://ubuntu.com/desktop/wsl); allows one to access Ubuntu (Linux) terminal environment on Windows.
 
@@ -42,8 +40,6 @@ sudo apt install python3-pip
 This will install several various packages/dependencies for pip.
 
 {: .note }
-> FYI
->
 > What is `pip` you may ask...It is the package installer for python which will allow us to install python applications/libraries and their dependencies. Pip allows you to install and manage additional packages that are not part of the Python standard library. 
 
 With pip installed, we can now create a virtual environment (`venv`). This will allow us to install additional python applications in a stable, reproducible environment. It puts you in control of the version of packages and when they get upgraded. Essentially keeping our work here separate from the main environment -- so we can be safe in the knowledge that if we make mistakes, break things, we can delete the virtual environment and start again easily.
@@ -55,17 +51,32 @@ sudo apt install python3-venv
 We're ready to create our first virtual environment now. You're going to want to create this in a directory that makes sense to you. 
 I have all of my virtual environments installed in `~/venvs`
 ```zsh
-cd $HOME # change directory to our $HOME i.e `~`
-echo $HOME # tells you what the environment variable $HOME points to
-pwd # verify where we are
-mkdir venvs # make a directory called venvs
-python3 -m venv .my-venv # make a virtual environment called .my-venv
+# change directory to our $HOME i.e `~`
+cd $HOME
+# tells you what the environment variable $HOME points to
+echo $HOME 
+# verify where we are
+pwd
+# make a directory called venvs
+mkdir venvs
+ # make a virtual environment called .my-venv
+python3 -m venv .my-venv
 ```
 
 {: .warning }
 > .my-venv is installed as a hidden folder.
+> You'd need to type `ls -a` to see any hidden folders.
 > That's a personal choice I made. You don't need the `.` and can also call it whatever you like.
 
+We can now activate our virtual environemnt. Pay attention now, this command you'll run every time you want to do any work in your virtual environment.
+```zsh
+source ~/venvs/.my-venv/bin/activate
+```
+
+When you are finished working in your venv, you should deactivate it, simply:
+```zsh
+deactivate
+```
 
 
 
