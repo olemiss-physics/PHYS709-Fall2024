@@ -7,11 +7,25 @@ nav_order: 2
 
 # Python and Jupyter
 
-We're now going to attempt to . If you have installed Anaconda in the past then you may want to disable it to avoid any conflicts, or if you're comfortable with Anaconda, use it to install Jupyter and python-related libraries. 
+We're now going to attempt to install Jupyter and additional Python libraries in a controlled, virtual environment. If you have installed Anaconda in the past then you may want to disable it to avoid any conflicts, or if you're comfortable with Anaconda, use it to install Jupyter and python-related libraries. 
 If you don't know what Anaconda is you can look it up in your own time but for the purposes of this tutorial, I won't mention it again.
 
 {: .note }
 Don't forget: If you run into any difficulties during this install process, please post in our class channel (#phys709-fall2024) on Slack.
+
+There's a multitude of resources online for your specific system, but the installation instructions herein should suffice for the most generic install. For the record, they worked for me on an Ubuntu-based zsh-shell via [Windows Subsystem for Linux (WSL)](https://ubuntu.com/desktop/wsl); allows one to access Ubuntu (Linux) terminal environment on Windows.
+
+## Prequisite
+
+- python v3+ (my setup has python v3.10.12)
+
+Ubuntu 22.04 comes with Python 3.10 installed. To check what version of python you have installed on your system:
+
+``` Code
+some code
+```
+
+
 
 Rather than reinvent the wheel, we'll make use of the excellent resources provided by [Software Carpentry](https://software-carpentry.org/).
 Specifically your task is to follow the Software Carpentry tutorial [Version Control with Git](https://swcarpentry.github.io/git-novice/).
