@@ -12,5 +12,5 @@ Oct 02
 : **HW 3 DUE**{: .label .label-red }[](#)
 
 Oct 04
-: [Forced and Damped Oscillations](#)
+: [Normal Coordinates, Coupled Pendulum](#)
   : **G 6**

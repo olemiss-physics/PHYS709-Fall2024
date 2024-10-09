@@ -100,7 +100,23 @@ liquid:
 
 callouts:
   highlight:
+    title: Highlight
     color: dracula-purple
+  note:
+    title: Note
+    color: dracula-cyan
+  note-optional:
+    title: Optional
+    color: dracula-yellow
+  warning: 
+    title: Warning
+    color: dracula-orange
+  important:
+    title: important
+    color: dracula-red
+  tip:
+    title: Tip
+    color: dracula-green
 
 enable_copy_code_button: true
 
