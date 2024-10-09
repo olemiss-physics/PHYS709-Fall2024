@@ -23,7 +23,7 @@ source ~/venvs/.my-venv/bin/activate
 Since we are now able to open Jupyter notebooks and play with them, let's do exactly that. I've revised a nice tutorial walkthrough that you are to now follow.
 Within the tutorial is an <span style="color:yellow">Exercise</span> to be completed with your own notebook that you will commit to a private homework repository you should create and give me access to view. From prior tutorials this should be straight-forward for you now.
 
-{: .tip }
+{: .important }
 > For your private homework submission repository use the following format to name your repo:
 > `hmwk-phys709-Firstname-LastName`
 

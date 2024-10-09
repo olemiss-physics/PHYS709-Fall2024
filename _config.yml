@@ -111,8 +111,8 @@ callouts:
   warning: 
     title: Warning
     color: dracula-orange
-  danger:
-    title: Danger
+  important:
+    title: important
     color: dracula-red
   tip:
     title: Tip
