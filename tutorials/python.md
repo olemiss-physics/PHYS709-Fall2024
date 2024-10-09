@@ -74,7 +74,7 @@ python3 -m venv .my-venv
 > You'd need to type `ls -a` to see any hidden folders.
 > That's a personal choice I made. You don't need the `.` and can also call it whatever you like.
 
-We can now activate our virtual environemnt. Pay attention now, this command you'll run every time you want to do any work in your virtual environment.
+We can now activate our virtual environment. Pay attention now, this command you'll run every time you want to do any work in your virtual environment.
 ```zsh
 source ~/venvs/.my-venv/bin/activate
 ```
@@ -103,7 +103,7 @@ If this opens jupyter in a browser then we are ready for the next stage!
 You can proceed to the [Python II]({{ site.baseurl }}{% link tutorials/python2.md %}) page.
 
 {: .note-optional }
-> Now I prefer for jupyter to not launch automatically in a browser (because I want to open it in Chrome and not the WSL default browser) so I add an alias to redirect it. Since I use `oh-my-zsh` to manage my `zsh` configuration, I use my favorite editor (`vscode`) to open `$ZSH_CUSTOM/aliases.zsh`, but for most use cases you can just open your `~/.bashrc` file. Open one of these files and add the following:
+> Now I prefer for jupyter to not launch automatically in a browser (because I want to open it in Chrome and not the WSL default browser) so I add an alias to redirect it. Since I use [Oh My Zsh](https://ohmyz.sh/) to manage my `zsh` configuration, I use my favorite editor [VS Code](https://code.visualstudio.com/) (`code` at the terminal) to open `$ZSH_CUSTOM/aliases.zsh`, but for most use cases you can just open your `~/.bashrc` file. Open one of these files and add the following:
 ```zsh
 alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
 ```
