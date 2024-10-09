@@ -101,6 +101,12 @@ liquid:
 callouts:
   highlight:
     color: dracula-purple
+  note:
+    color: dracula-blue
+  warning:
+    color: dracula-orange
+  danger:
+    color: dracula-red
 
 enable_copy_code_button: true
 
