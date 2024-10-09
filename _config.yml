@@ -102,7 +102,7 @@ callouts:
   highlight:
     color: dracula-purple
   note:
-    color: dracula-blue
+    color: dracula-cyan
   warning:
     color: dracula-orange
   danger:
