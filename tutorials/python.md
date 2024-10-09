@@ -33,6 +33,9 @@ If Python is not on your machine then you're going to need to install it:
 sudo apt update && sudo apt install python3
 ```
 If you're using a Mac, I suggest using [homebrew](https://brew.sh/).
+
+## Install pip
+
 Alright, so we're going to want to also install `pip` (not installed by default on Ubuntu for example):
 ```zsh
 sudo apt install python3-pip
@@ -41,6 +44,8 @@ This will install several various packages/dependencies for pip.
 
 {: .note }
 > What is `pip` you may ask...It is the package installer for python which will allow us to install python applications/libraries and their dependencies. Pip allows you to install and manage additional packages that are not part of the Python standard library. 
+
+## Install venv
 
 With pip installed, we can now create a virtual environment (`venv`). This will allow us to install additional python applications in a stable, reproducible environment. It puts you in control of the version of packages and when they get upgraded. Essentially keeping our work here separate from the main environment -- so we can be safe in the knowledge that if we make mistakes, break things, we can delete the virtual environment and start again easily.
 Install `venv`:
@@ -77,6 +82,9 @@ When you are finished working in your venv, you should deactivate it, simply:
 ```zsh
 deactivate
 ```
+
+## Install Jupyter
+
 
 
 
