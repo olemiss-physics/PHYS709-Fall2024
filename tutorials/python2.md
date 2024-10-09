@@ -27,3 +27,12 @@ Within the tutorial is an <span style="color:yellow">Exercise</span> to be compl
 > For your private homework submission repository use the following format to name your repo:
 > `hmwk-phys709-Firstname-LastName`
 
+Please follow the [Intro]({{ site.baseurl }}{% link notebooks/intro.ipynb %}) tutorial and complete the enclosed <span style="color:yellow">Exercise</span>.
+
+You can simply download the `intro.ipynb` file and open it in Jupyter.
+
+{: .warning }
+Some browsers will save Jupyter notebooks with an additional `.txt` extension. If that's the case for you, simply rename it by removing the `.txt` extension. Jupyter notebook extensions are `.ipynb`.
+
+{: .tip }
+If you want a sneak-peek at the Jupyter notebook tutorial you can open it and have it rendered by [nbviewer](https://nbviewer.org/).
