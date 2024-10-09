@@ -114,6 +114,9 @@ callouts:
   danger:
     title: Danger
     color: dracula-red
+  tip:
+    title: Tip
+    color: dracula-green
 
 enable_copy_code_button: true
 
