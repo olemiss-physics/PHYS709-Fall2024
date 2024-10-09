@@ -11,7 +11,9 @@ We're now going to attempt to install Jupyter and additional Python libraries in
 If you don't know what Anaconda is you can look it up in your own time but for the purposes of this tutorial, I won't mention it again.
 
 {: .note }
-Don't forget: If you run into any difficulties during this install process, please post in our class channel (#phys709-fall2024) on Slack.
+> Note
+>
+> Don't forget: If you run into any difficulties during this install process, please post in our class channel (#phys709-fall2024) on Slack.
 
 There's a multitude of resources online for your specific system, but the installation instructions herein should suffice for the most generic install. For the record, they worked for me on an Ubuntu-based zsh-shell via [Windows Subsystem for Linux (WSL)](https://ubuntu.com/desktop/wsl); allows one to access Ubuntu (Linux) terminal environment on Windows.
 
@@ -21,11 +23,62 @@ There's a multitude of resources online for your specific system, but the instal
 
 Ubuntu 22.04 comes with Python 3.10 installed. To check what version of python you have installed on your system:
 
-``` Code
-some code
+```zsh
+python3 -V
+```
+or
+```bash
+python3 --version
+```
+If Python is not on your machine then you're going to need to install it:
+```zsh
+sudo apt update && sudo apt install python3
+```
+If you're using a Mac, I suggest using [homebrew](https://brew.sh/).
+Alright, so we're going to want to also install `pip` (not installed by default on Ubuntu for example):
+```zsh
+sudo apt install python3-pip
+```
+This will install several various packages/dependencies for pip.
+
+{: .note }
+> FYI
+>
+> What is `pip` you may ask...It is the package installer for python which will allow us to install python applications/libraries and their dependencies. Pip allows you to install and manage additional packages that are not part of the Python standard library. 
+
+With pip installed, we can now create a virtual environment (`venv`). This will allow us to install additional python applications in a stable, reproducible environment. It puts you in control of the version of packages and when they get upgraded. Essentially keeping our work here separate from the main environment -- so we can be safe in the knowledge that if we make mistakes, break things, we can delete the virtual environment and start again easily.
+Install `venv`:
+```zsh
+sudo apt install python3-venv
 ```
 
+We're ready to create our first virtual environment now. You're going to want to create this in a directory that makes sense to you. 
+I have all of my virtual environments installed in `~/venvs`
+```zsh
+cd $HOME # change directory to our $HOME i.e `~`
+echo $HOME # tells you what the environment variable $HOME points to
+pwd # verify where we are
+mkdir venvs # make a directory called venvs
+python3 -m venv .my-venv # make a virtual environment called .my-venv
+```
 
+{: .warning }
+> .my-venv is installed as a hidden folder.
+> That's a personal choice I made. You don't need the `.` and can also call it whatever you like.
+
+
+
+
+
+<!--{% highlight Code %}
+some code
+{% endhighlight %}-->
+
+<!--{: .highlight } 
+> Code
+>
+> python3 -V
+{: .source}-->
 
 Rather than reinvent the wheel, we'll make use of the excellent resources provided by [Software Carpentry](https://software-carpentry.org/).
 Specifically your task is to follow the Software Carpentry tutorial [Version Control with Git](https://swcarpentry.github.io/git-novice/).
