@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Version Control II
+title: Python
 parent: Tutorials
-nav_order: 2
+nav_order: 3
 ---
 
 # Python and Jupyter
@@ -28,9 +28,10 @@ or
 ```bash
 python3 --version
 ```
-If Python is not on your machine then you're going to need to install it:
+If Python is not on your machine then you're going to need to install it (and make sure your machine is up-to-date):
 ```zsh
-sudo apt update && sudo apt install python3
+sudo apt update && upgrade
+sudo apt install python3
 ```
 If you're using a Mac, I suggest using [homebrew](https://brew.sh/).
 
@@ -85,32 +86,29 @@ deactivate
 
 ## Install Jupyter
 
+```zsh
+sudo apt install ipython3 jupyter-core
+```
+We should be ready to install Jupyter now, where your terminal (in my case, WSL) will act as a jupyter server accessible to view on a browser at localhost through port 4000. Let's install jupyter:
+```zsh
+pip3 install jupyter
+```
 
+Assuming everything went well, we should be able to launch jupyter now:
+```zsh
+jupyter notebook
+```
+If this opens jupyter in a browser then we are ready for the next stage!
 
+You can proceed to the [Python II]({{ site.baseurl }}{% link tutorials/python2.md %}) page.
 
-
-<!--{% highlight Code %}
-some code
-{% endhighlight %}-->
-
-<!--{: .highlight } 
-> Code
->
-> python3 -V
-{: .source}-->
-
-Rather than reinvent the wheel, we'll make use of the excellent resources provided by [Software Carpentry](https://software-carpentry.org/).
-Specifically your task is to follow the Software Carpentry tutorial [Version Control with Git](https://swcarpentry.github.io/git-novice/).
-I honestly believe this is more fun than it is onerous "homework". Have fun with it, explore, collaborate, learn!
-
-If you're not comfortable with the Unix Shell, I can recommend Software Carpentry's [The Unix Shell](https://swcarpentry.github.io/shell-novice/) tutorial; recommended not required.
-
-Of course, you already have a GitHub account so you should be able to dive straight into this tutorial. You'll also quickly learn that you want to use a good text editor.
-My personal favorite at the moment is [VS Code](https://code.visualstudio.com/) which has really nice integration with Git, but this is a very personal choice (of which there are many).
-I'm happy to show you my personal setup Windows+WSL+ohmyzsh+vscode upon request.
-
-Recall how you all made `test-repo` in the earlier tutorial. Well, when you get to part [3. Creating a repository](https://swcarpentry.github.io/git-novice/03-create.html),  you can repurpose your `test-repo` by [renaming your repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository) to the suggested `planets` and then continue following the tutorial; that way I should maintain my access.
-
-When you get to part [8. Collaborating](https://swcarpentry.github.io/git-novice/08-collab.html), where it says get into pairs, find one or more classmates to collaborate with and follow the instructions for sharing and collaborating with each other's repositories. I'll be able to verify this (and aid with any conflicts) by observing commits within all the repositories.
-
-If you want to go beyond, explore at your own pace [Advanced git](https://learngitbranching.js.org/?locale=en_US) with an interactive webpage that helps one learn how to work with branches.
+{: .note-optional }
+> Now I prefer for jupyter to not launch automatically in a browser (because I want to open it in Chrome and not the WSL default browser) so I add an alias to redirect it. Since I use `oh-my-zsh` to manage my `zsh` configuration, I use my favorite editor (`vscode`) to open `$ZSH_CUSTOM/aliases.zsh`, but for most use cases you can just open your `~/.bashrc` file. Open one of these files and add the following:
+```zsh
+alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
+```
+Save and close your editor and then either re-source your shell config file or start a new terminal, reactivate your venv if needed and launch jupyter notebook, e.g.:
+```zsh
+source ~/.bashrc
+jupyter notebook
+```
