@@ -3,15 +3,15 @@ title: Week 9
 ---
 
 Oct 21
-: [Rigid Body Motion: Kinematics](#)
+: [Central Forces: Laplace-Runge-Lenz](#)
   : **G 4**
 : **HW 4 DUE**{: .label .label-red }[](#)
 
 
 Oct 23
-: [Euler Angles](#)
+: [Central Forces: Scattering Cross Sections](#)
   : **G 4**
 
 Oct 25
-: [Euler's Theorem](#)
+: [No class](#)
   : **G 4**

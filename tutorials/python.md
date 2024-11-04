@@ -2,7 +2,7 @@
 layout: page
 title: Version Control II
 parent: Tutorials
-nav_order: 2
+nav_order: 3
 ---
 
 # Python and Jupyter
