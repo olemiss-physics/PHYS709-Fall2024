@@ -11,5 +11,5 @@ Nov 13
   : **G 5**
 
 Nov 15
-: [Torque-Free Motion](#)
+: [In-class Problem Solving](#)
   : **G 5**
