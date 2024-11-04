@@ -12,8 +12,7 @@ Oct 09
   : **G 3**
 : [**HW 4**]({{ site.baseurl }}{% link hw/phys709-hmwk-4.pdf %}){: .label .label-yellow }[](#)
 : [**CT 3**]({{ site.baseurl }}{% link tutorials/python.md %}){: .label .label-cyan }[](#)
-
-: Guest Lecturer: Noah Knutson
+: Support: Noah Knutson
 
 Oct 11
 : [Central Forces: Orbit Classification](#)
