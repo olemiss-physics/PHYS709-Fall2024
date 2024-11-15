@@ -3,11 +3,11 @@ title: Week 13
 ---
 
 Nov 18
-: [Torque-Free Motion](#)
+: [Coriolis, Inertia Tensor](#)
   : **G 5**
 
 Nov 20
-: [Spinning Top](#)
+: [Inertia Tensor & Torque-Free Motion](#)
   : **G 5**
 
 Nov 22
